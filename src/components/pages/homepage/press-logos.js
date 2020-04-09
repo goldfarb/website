@@ -25,7 +25,7 @@ export default ({ onlyFeatured }) => {
           {(!onlyFeatured || node.featured) && (
             <img
               key={`homepage-press-${node.name}`}
-              alt={`${node.name} logo`}
+              alt={`${node.name}`}
               src={`/images/press-logos/${node.logo}`}
             />
           )}
